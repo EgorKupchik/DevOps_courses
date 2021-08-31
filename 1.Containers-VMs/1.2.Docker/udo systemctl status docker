@@ -1,0 +1,1033 @@
+-- Logs begin at Wed 2021-02-24 22:14:47 +03, end at Thu 2021-08-12 17:46:42 +03. --
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.717530471+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.718345997+03:00" level=info msg="Loading containers: start."
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.906130987+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.948092122+03:00" level=info msg="Loading containers: done."
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.985096179+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 21 15:42:53 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:53.985759179+03:00" level=info msg="Daemon has completed initialization"
+ліп 21 15:42:54 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 21 15:42:54 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T15:42:54.010505741+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 21 19:54:37 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T19:54:37.419138794+03:00" level=info msg="Processing signal 'terminated'"
+ліп 21 19:54:37 egor-HP-ProBook-440-G6 dockerd[1461]: time="2021-07-21T19:54:37.421140132+03:00" level=info msg="Daemon shutdown complete"
+ліп 21 19:54:37 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 21 19:54:37 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 21 19:54:37 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.314521007+03:00" level=info msg="Starting up"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.317509226+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.347805848+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.347837233+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.347861612+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.347878449+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.351392612+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.351413662+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.351433130+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.351443367+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.377949855+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.383826778+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.383852939+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.383865755+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.384740526+03:00" level=info msg="Loading containers: start."
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.562256316+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.600852111+03:00" level=info msg="Loading containers: done."
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.648528731+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.649054274+03:00" level=info msg="Daemon has completed initialization"
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 22 17:39:37 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-22T17:39:37.673260380+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 23 00:28:08 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-23T00:28:08.209668281+03:00" level=info msg="Processing signal 'terminated'"
+ліп 23 00:28:08 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-23T00:28:08.213204473+03:00" level=info msg="Daemon shutdown complete"
+ліп 23 00:28:08 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 23 00:28:08 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 23 00:28:08 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.388833549+03:00" level=info msg="Starting up"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.390094901+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.425888241+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.425926890+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.425984830+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.426030032+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.430150849+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.430171299+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.430186496+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.430195756+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.451966396+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.457802795+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.457824412+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.457839721+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.458570733+03:00" level=info msg="Loading containers: start."
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.629344522+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.670716062+03:00" level=info msg="Loading containers: done."
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.718260558+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.718790398+03:00" level=info msg="Daemon has completed initialization"
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 23 14:04:33 egor-HP-ProBook-440-G6 dockerd[1460]: time="2021-07-23T14:04:33.744157084+03:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+ліп 24 09:44:36 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.204708730+03:00" level=info msg="Starting up"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.205996587+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.239015581+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.239056582+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.239089065+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.239114428+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.243409997+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.243443358+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.243472323+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.243491316+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.258697559+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.264308552+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.264330471+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.264339190+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.265107378+03:00" level=info msg="Loading containers: start."
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.434085319+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.484278030+03:00" level=info msg="Loading containers: done."
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.532205461+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.532722375+03:00" level=info msg="Daemon has completed initialization"
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 24 09:44:37 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T09:44:37.564866779+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 24 12:02:17 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T12:02:17.065283087+03:00" level=info msg="Processing signal 'terminated'"
+ліп 24 12:02:17 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 24 12:02:17 egor-HP-ProBook-440-G6 dockerd[1453]: time="2021-07-24T12:02:17.069230170+03:00" level=info msg="Daemon shutdown complete"
+ліп 24 12:02:17 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 24 12:02:17 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.567639594+03:00" level=info msg="Starting up"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.570068037+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.604265776+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.604297095+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.604325673+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.604367873+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.608460911+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.608485122+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.608524930+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.608537513+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.629824743+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.635171391+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.635191633+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.635198804+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.636064442+03:00" level=info msg="Loading containers: start."
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.818407578+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.865736753+03:00" level=info msg="Loading containers: done."
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.920687880+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.921343589+03:00" level=info msg="Daemon has completed initialization"
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 25 20:01:11 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T20:01:11.951835600+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T23:33:49.078739775+03:00" level=info msg="Processing signal 'terminated'"
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T23:33:49.080760730+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 dockerd[1462]: time="2021-07-25T23:33:49.080936718+03:00" level=info msg="Daemon shutdown complete"
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 25 23:33:49 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 26 18:15:34 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.028163555+03:00" level=info msg="Starting up"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.031421850+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.110210884+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.110270291+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.110315225+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.110352438+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.126479364+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.126533318+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.126575530+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.126601142+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.160236872+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.189561177+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.189605815+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.189620707+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.192003238+03:00" level=info msg="Loading containers: start."
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.453470937+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.505863168+03:00" level=info msg="Loading containers: done."
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.648199404+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.650498790+03:00" level=info msg="Daemon has completed initialization"
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 26 18:15:35 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T18:15:35.689221011+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T19:12:54.765936690+03:00" level=info msg="Processing signal 'terminated'"
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T19:12:54.768183134+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 dockerd[1263]: time="2021-07-26T19:12:54.770468622+03:00" level=info msg="Daemon shutdown complete"
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 26 19:12:54 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.370249297+03:00" level=info msg="Starting up"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.371615630+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.410217521+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.410248288+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.410278017+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.410299486+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.415129690+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.415149258+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.415165588+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.415174354+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.429239808+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.434736446+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.434761109+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.434769802+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.435525906+03:00" level=info msg="Loading containers: start."
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.603663481+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.640262575+03:00" level=info msg="Loading containers: done."
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.694303452+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.694997734+03:00" level=info msg="Daemon has completed initialization"
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 26 19:13:26 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T19:13:26.735560049+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T23:57:43.156591079+03:00" level=info msg="Processing signal 'terminated'"
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T23:57:43.157925079+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 dockerd[1469]: time="2021-07-26T23:57:43.158731313+03:00" level=info msg="Daemon shutdown complete"
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 26 23:57:43 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.475810549+03:00" level=info msg="Starting up"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.477229035+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.512328068+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.512359168+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.512381876+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.512420043+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.516557530+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.516580439+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.516607347+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.516640875+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.533115191+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.539257983+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.539279975+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.539309035+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.540206561+03:00" level=info msg="Loading containers: start."
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.710770267+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.752620260+03:00" level=info msg="Loading containers: done."
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.799706188+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.800252969+03:00" level=info msg="Daemon has completed initialization"
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 27 13:53:25 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T13:53:25.824546767+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T22:43:01.077498764+03:00" level=info msg="Processing signal 'terminated'"
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T22:43:01.080572109+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 dockerd[1454]: time="2021-07-27T22:43:01.080791050+03:00" level=info msg="Daemon shutdown complete"
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 27 22:43:01 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 28 17:27:20 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.004177039+03:00" level=info msg="Starting up"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.005199465+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.033425641+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.033447787+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.033467795+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.033485996+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.036364622+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.036380987+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.036396945+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.036404902+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.057163903+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.062367357+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.062383364+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.062389522+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.063385061+03:00" level=info msg="Loading containers: start."
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.172046187+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.196709043+03:00" level=info msg="Loading containers: done."
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.247012797+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.247432543+03:00" level=info msg="Daemon has completed initialization"
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 28 17:27:21 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T17:27:21.272994951+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 28 20:38:18 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T20:38:18.104836602+03:00" level=info msg="Processing signal 'terminated'"
+ліп 28 20:38:18 egor-HP-ProBook-440-G6 dockerd[1480]: time="2021-07-28T20:38:18.106221875+03:00" level=info msg="Daemon shutdown complete"
+ліп 28 20:38:18 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 28 20:38:18 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 28 20:38:18 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.800704528+03:00" level=info msg="Starting up"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.801886076+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.831291119+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.831315068+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.831334023+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.831347816+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.834832754+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.834866878+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.834878221+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.834884416+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.849246899+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.854566914+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.854589436+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.854594862+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.855368737+03:00" level=info msg="Loading containers: start."
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.965594257+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 28 22:49:53 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:53.989073292+03:00" level=info msg="Loading containers: done."
+ліп 28 22:49:54 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:54.031690511+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 28 22:49:54 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:54.032174856+03:00" level=info msg="Daemon has completed initialization"
+ліп 28 22:49:54 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 28 22:49:54 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-28T22:49:54.050836301+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-29T00:22:15.877304414+03:00" level=info msg="Processing signal 'terminated'"
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-29T00:22:15.879926298+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 dockerd[1477]: time="2021-07-29T00:22:15.880519027+03:00" level=info msg="Daemon shutdown complete"
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 29 00:22:15 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 29 09:07:31 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.194777849+03:00" level=info msg="Starting up"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.196091834+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.226593246+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.226627602+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.226654366+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.226673103+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.231097894+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.231122781+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.231158825+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.231168906+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.245031517+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.251142357+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.251165085+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.251174017+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.251921023+03:00" level=info msg="Loading containers: start."
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.428417131+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.464018300+03:00" level=info msg="Loading containers: done."
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.515012888+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.515739345+03:00" level=info msg="Daemon has completed initialization"
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 29 09:07:32 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:07:32.551581411+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:29:02.036324038+03:00" level=info msg="Processing signal 'terminated'"
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:29:02.044050439+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 dockerd[1407]: time="2021-07-29T09:29:02.046620723+03:00" level=info msg="Daemon shutdown complete"
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 29 09:29:02 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.531995432+03:00" level=info msg="Starting up"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.533653538+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.566348519+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.566382346+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.566413721+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.566437152+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.570572942+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.570597479+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.570633529+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.570650118+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.586470781+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.591854729+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.591878267+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.591886212+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.592672768+03:00" level=info msg="Loading containers: start."
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.760096008+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.799152780+03:00" level=info msg="Loading containers: done."
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.856897315+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.857678472+03:00" level=info msg="Daemon has completed initialization"
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 29 14:20:39 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T14:20:39.893384053+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T20:42:26.421972112+03:00" level=info msg="Processing signal 'terminated'"
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T20:42:26.423159524+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T20:42:26.426490199+03:00" level=info msg="Daemon shutdown complete"
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 29 20:42:26 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.581486530+03:00" level=info msg="Starting up"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.583627955+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.629947911+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.630012648+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.630062315+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.630086623+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.634611245+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.634638561+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.634667369+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.634682028+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.653974748+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.659379548+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.659401145+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.659410866+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.660214945+03:00" level=info msg="Loading containers: start."
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.840351442+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.876618425+03:00" level=info msg="Loading containers: done."
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.940211298+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.940902400+03:00" level=info msg="Daemon has completed initialization"
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 29 22:38:55 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T22:38:55.966591105+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T23:11:54.032961095+03:00" level=info msg="Processing signal 'terminated'"
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T23:11:54.034280696+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 dockerd[1450]: time="2021-07-29T23:11:54.035013632+03:00" level=info msg="Daemon shutdown complete"
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 29 23:11:54 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.899423109+03:00" level=info msg="Starting up"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.901314926+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.955904096+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.955955842+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.955983029+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.956003618+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.960070253+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.960092820+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.960114795+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.960133903+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.975791613+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.981033172+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.981052084+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.981058490+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 30 19:27:09 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:09.981885137+03:00" level=info msg="Loading containers: start."
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:10.153959059+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:10.194880910+03:00" level=info msg="Loading containers: done."
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:10.259619102+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:10.260339639+03:00" level=info msg="Daemon has completed initialization"
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 30 19:27:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T19:27:10.298004250+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T23:22:10.924670701+03:00" level=info msg="Processing signal 'terminated'"
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T23:22:10.927075272+03:00" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = transport is closing" module=libcontainerd namespace=moby
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T23:22:10.927135267+03:00" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=moby
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 dockerd[1459]: time="2021-07-30T23:22:10.927178168+03:00" level=info msg="Daemon shutdown complete"
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 30 23:22:10 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+ліп 31 09:32:54 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.191542320+03:00" level=info msg="Starting up"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.193336091+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.247412844+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.247448793+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.247484185+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.247533957+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.251812189+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.251832376+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.251849189+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.251859305+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.277120813+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.282716694+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.282739879+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.282748811+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.283490505+03:00" level=info msg="Loading containers: start."
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.453253708+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.489385867+03:00" level=info msg="Loading containers: done."
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.556080148+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.556642015+03:00" level=info msg="Daemon has completed initialization"
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+ліп 31 09:32:55 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:32:55.587979257+03:00" level=info msg="API listen on /run/docker.sock"
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:47:58.042793831+03:00" level=info msg="Processing signal 'terminated'"
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:47:58.044542880+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 dockerd[1485]: time="2021-07-31T09:47:58.045147623+03:00" level=info msg="Daemon shutdown complete"
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+ліп 31 09:47:58 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 01 15:56:27 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.153318795+03:00" level=info msg="Starting up"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.155946107+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.219489516+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.219532317+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.219578744+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.219629015+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.224009276+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.224041151+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.224073212+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.224087018+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.249994900+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.255470356+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.255493746+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.255501876+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.256302675+03:00" level=info msg="Loading containers: start."
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.423294175+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.464316981+03:00" level=info msg="Loading containers: done."
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.516148446+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.516646404+03:00" level=info msg="Daemon has completed initialization"
+жні 01 15:56:28 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 01 15:56:28 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T15:56:28.543113890+03:00" level=info msg="API listen on /run/docker.sock"
+жні 01 22:55:26 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T22:55:26.086797825+03:00" level=info msg="Processing signal 'terminated'"
+жні 01 22:55:26 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T22:55:26.087940539+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 01 22:55:26 egor-HP-ProBook-440-G6 dockerd[1474]: time="2021-08-01T22:55:26.088561516+03:00" level=info msg="Daemon shutdown complete"
+жні 01 22:55:26 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 01 22:55:26 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 01 22:55:26 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 02 14:38:08 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.382368373+03:00" level=info msg="Starting up"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.391572343+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.457244897+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.457296054+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.457349861+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.457390037+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.468515181+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.468548553+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.468580555+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.468600169+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.487604957+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.509359966+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.509394821+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.509408222+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.512072305+03:00" level=info msg="Loading containers: start."
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.786820491+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.838750554+03:00" level=info msg="Loading containers: done."
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.983548915+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 02 14:38:09 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:09.985436366+03:00" level=info msg="Daemon has completed initialization"
+жні 02 14:38:10 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 02 14:38:10 egor-HP-ProBook-440-G6 dockerd[1272]: time="2021-08-02T14:38:10.028684223+03:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+жні 02 19:00:33 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.720438311+03:00" level=info msg="Starting up"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.721799104+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.756870851+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.756895304+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.756920491+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.756935533+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.760985522+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.761000641+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.761012582+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.761021569+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.777766661+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.783487846+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.783507251+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.783512173+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.784151611+03:00" level=info msg="Loading containers: start."
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.893353371+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.916773552+03:00" level=info msg="Loading containers: done."
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.988683786+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 02 19:00:33 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:33.989277149+03:00" level=info msg="Daemon has completed initialization"
+жні 02 19:00:34 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 02 19:00:34 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T19:00:34.011198579+03:00" level=info msg="API listen on /run/docker.sock"
+жні 02 23:54:44 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 02 23:54:44 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T23:54:44.958517562+03:00" level=info msg="Processing signal 'terminated'"
+жні 02 23:54:44 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T23:54:44.961757844+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 02 23:54:44 egor-HP-ProBook-440-G6 dockerd[1526]: time="2021-08-02T23:54:44.962744195+03:00" level=info msg="Daemon shutdown complete"
+жні 02 23:54:45 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 02 23:54:45 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 03 15:37:02 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.614012015+03:00" level=info msg="Starting up"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.615676513+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.660358436+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.660395670+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.660446852+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.660490063+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.665038435+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.665061748+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.665105019+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.665142069+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.680845265+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.686555782+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.686589079+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.686595864+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.689762156+03:00" level=info msg="Loading containers: start."
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.867385310+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.908707641+03:00" level=info msg="Loading containers: done."
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.963945245+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.964524653+03:00" level=info msg="Daemon has completed initialization"
+жні 03 15:37:02 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 03 15:37:02 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T15:37:02.995829547+03:00" level=info msg="API listen on /run/docker.sock"
+жні 03 22:59:20 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T22:59:20.544971993+03:00" level=info msg="Processing signal 'terminated'"
+жні 03 22:59:20 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T22:59:20.546561456+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 03 22:59:20 egor-HP-ProBook-440-G6 dockerd[1531]: time="2021-08-03T22:59:20.547324795+03:00" level=info msg="Daemon shutdown complete"
+жні 03 22:59:20 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 03 22:59:20 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 03 22:59:20 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 04 17:09:55 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.796182869+03:00" level=info msg="Starting up"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.797571696+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.833990167+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.834032066+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.834069663+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.834126680+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.838819907+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.838846567+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.838872373+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.838889354+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.860546831+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.866230452+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.866258405+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.866266820+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 04 17:09:55 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:55.867057572+03:00" level=info msg="Loading containers: start."
+жні 04 17:09:56 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:56.042730607+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 04 17:09:56 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:56.080034170+03:00" level=info msg="Loading containers: done."
+жні 04 17:09:56 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:56.134316624+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 04 17:09:56 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:56.138381648+03:00" level=info msg="Daemon has completed initialization"
+жні 04 17:09:56 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 04 17:09:56 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T17:09:56.160869777+03:00" level=info msg="API listen on /run/docker.sock"
+жні 04 18:41:47 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T18:41:47.734997647+03:00" level=info msg="Processing signal 'terminated'"
+жні 04 18:41:47 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T18:41:47.736508659+03:00" level=error msg="Failed to get event" error="rpc error: code = Unavailable desc = transport is closing" module=libcontainerd namespace=moby
+жні 04 18:41:47 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T18:41:47.736559870+03:00" level=info msg="Waiting for containerd to be ready to restart event processing" module=libcontainerd namespace=moby
+жні 04 18:41:47 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T18:41:47.736620255+03:00" level=warning msg="Error while testing if containerd API is ready" error="rpc error: code = Canceled desc = grpc: the client connection is closing"
+жні 04 18:41:47 egor-HP-ProBook-440-G6 dockerd[1528]: time="2021-08-04T18:41:47.736809648+03:00" level=info msg="Daemon shutdown complete"
+жні 04 18:41:47 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 04 18:41:47 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 04 18:41:47 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 05 17:10:02 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.634934335+03:00" level=info msg="Starting up"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.636320148+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.672037894+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.672079330+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.672127804+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.672161824+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.676575105+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.676600304+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.676623478+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.676637144+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.701889163+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.708112181+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.708141212+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.708152695+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.708965359+03:00" level=info msg="Loading containers: start."
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.878209179+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.916570560+03:00" level=info msg="Loading containers: done."
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.970633164+03:00" level=info msg="Docker daemon" commit=b0f5bc3 graphdriver(s)=overlay2 version=20.10.7
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.971237505+03:00" level=info msg="Daemon has completed initialization"
+жні 05 17:10:02 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 05 17:10:02 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:10:02.995682969+03:00" level=info msg="API listen on /run/docker.sock"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:39:09.319001738+03:00" level=info msg="Processing signal 'terminated'"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:39:09.320480517+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[1535]: time="2021-08-05T17:39:09.321160514+03:00" level=info msg="Daemon shutdown complete"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 05 17:39:09 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 05 17:39:09 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.454883043+03:00" level=info msg="Starting up"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.455877727+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.456776404+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.456820031+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.456867387+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.456883067+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.458458898+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.458488248+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.458509538+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.458520729+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.538355165+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.541178183+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.541203784+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.541212789+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.541478750+03:00" level=info msg="Loading containers: start."
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.632411558+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.672356031+03:00" level=info msg="Loading containers: done."
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.696873807+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.696954657+03:00" level=info msg="Daemon has completed initialization"
+жні 05 17:39:09 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 05 17:39:09 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:09.723518359+03:00" level=info msg="API listen on /run/docker.sock"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:32.648817309+03:00" level=info msg="Processing signal 'terminated'"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:32.650158733+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[7129]: time="2021-08-05T17:39:32.650937538+03:00" level=info msg="Daemon shutdown complete"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 05 17:39:32 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 05 17:39:32 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.708887139+03:00" level=info msg="Starting up"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.709855211+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.710725752+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.710763523+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.710804108+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.710825595+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.711962775+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.711985592+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.712004832+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.712024775+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.735480980+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.738538200+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.738575222+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.738590152+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.738864181+03:00" level=info msg="Loading containers: start."
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.827548706+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.866538996+03:00" level=info msg="Loading containers: done."
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.884316315+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.884395553+03:00" level=info msg="Daemon has completed initialization"
+жні 05 17:39:32 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 05 17:39:32 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:39:32.922929467+03:00" level=info msg="API listen on /run/docker.sock"
+жні 05 17:40:13 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:40:13.525418286+03:00" level=info msg="Processing signal 'terminated'"
+жні 05 17:40:13 egor-HP-ProBook-440-G6 dockerd[10542]: time="2021-08-05T17:40:13.527408388+03:00" level=info msg="Daemon shutdown complete"
+жні 05 17:40:13 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 05 17:40:13 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 05 17:40:13 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 05 17:40:54 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.356053372+03:00" level=info msg="Starting up"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.357793627+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.392051988+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.392088341+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.392139709+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.392176302+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.395312580+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.395346038+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.395410399+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.395437831+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.421870814+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.427068146+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.427090433+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.427097352+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.427658980+03:00" level=info msg="Loading containers: start."
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.598188432+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.638307462+03:00" level=info msg="Loading containers: done."
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.671909846+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.672472120+03:00" level=info msg="Daemon has completed initialization"
+жні 05 17:40:54 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 05 17:40:54 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:40:54.704136798+03:00" level=info msg="API listen on /run/docker.sock"
+жні 05 17:48:14 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 05 17:48:14 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:48:14.106921238+03:00" level=info msg="Processing signal 'terminated'"
+жні 05 17:48:14 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:48:14.109534034+03:00" level=info msg="Daemon shutdown complete"
+жні 05 17:48:14 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:48:14.110926075+03:00" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=moby
+жні 05 17:48:14 egor-HP-ProBook-440-G6 dockerd[1533]: time="2021-08-05T17:48:14.111049259+03:00" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+жні 05 17:48:14 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 05 17:48:14 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 05 21:53:32 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.590024559+03:00" level=info msg="Starting up"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.591709994+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.628531532+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.628567470+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.628621426+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.628650574+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.632237032+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.632261612+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.632280606+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.632291098+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.648201665+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.653780888+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.653843326+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.653852745+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.654245194+03:00" level=info msg="Loading containers: start."
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.830113558+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.871079226+03:00" level=info msg="Loading containers: done."
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.911076612+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.911563506+03:00" level=info msg="Daemon has completed initialization"
+жні 05 21:53:32 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 05 21:53:32 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T21:53:32.941793326+03:00" level=info msg="API listen on /run/docker.sock"
+жні 05 23:45:18 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 05 23:45:18 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T23:45:18.845223831+03:00" level=info msg="Processing signal 'terminated'"
+жні 05 23:45:18 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T23:45:18.847104617+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 05 23:45:18 egor-HP-ProBook-440-G6 dockerd[1543]: time="2021-08-05T23:45:18.847798357+03:00" level=info msg="Daemon shutdown complete"
+жні 05 23:45:18 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 05 23:45:18 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 06 08:25:06 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.359905961+03:00" level=info msg="Starting up"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.361730513+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.396256578+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.396287591+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.396315735+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.396349037+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.401467455+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.401489947+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.401514419+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.401525848+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.419299706+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.424743101+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.424767607+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.424774965+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.425186317+03:00" level=info msg="Loading containers: start."
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.599339081+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.644270316+03:00" level=info msg="Loading containers: done."
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.695800744+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.696446241+03:00" level=info msg="Daemon has completed initialization"
+жні 06 08:25:06 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 06 08:25:06 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:25:06.730646798+03:00" level=info msg="API listen on /run/docker.sock"
+жні 06 08:28:32 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 06 08:28:32 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:28:32.122859387+03:00" level=info msg="Processing signal 'terminated'"
+жні 06 08:28:32 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:28:32.131808557+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 06 08:28:32 egor-HP-ProBook-440-G6 dockerd[1538]: time="2021-08-06T08:28:32.132609917+03:00" level=info msg="Daemon shutdown complete"
+жні 06 08:28:32 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 06 08:28:32 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 06 13:54:35 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.721681245+03:00" level=info msg="Starting up"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.723446230+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.757960316+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.757994983+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.758079574+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.758115057+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.762502657+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.762525692+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.762566215+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.762582071+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.778225494+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.784294874+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.784327095+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.784340338+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.784825179+03:00" level=info msg="Loading containers: start."
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.954991399+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 06 13:54:35 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:35.999154121+03:00" level=info msg="Loading containers: done."
+жні 06 13:54:36 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:36.060097333+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 06 13:54:36 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:36.060652897+03:00" level=info msg="Daemon has completed initialization"
+жні 06 13:54:36 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 06 13:54:36 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T13:54:36.085942143+03:00" level=info msg="API listen on /run/docker.sock"
+жні 06 23:12:12 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 06 23:12:12 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T23:12:12.511468092+03:00" level=info msg="Processing signal 'terminated'"
+жні 06 23:12:12 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T23:12:12.513057776+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 06 23:12:12 egor-HP-ProBook-440-G6 dockerd[1550]: time="2021-08-06T23:12:12.513771603+03:00" level=info msg="Daemon shutdown complete"
+жні 06 23:12:12 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 06 23:12:12 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 07 10:16:21 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.763858691+03:00" level=info msg="Starting up"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.766097755+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.804010375+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.804047008+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.804078746+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.804107823+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.807663924+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.807694446+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.807733567+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.807746002+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.826338647+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.833463070+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.833488278+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.833496210+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 07 10:16:21 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:21.834376751+03:00" level=info msg="Loading containers: start."
+жні 07 10:16:22 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:22.011026237+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 07 10:16:22 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:22.057091112+03:00" level=info msg="Loading containers: done."
+жні 07 10:16:22 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:22.106654541+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 07 10:16:22 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:22.107278717+03:00" level=info msg="Daemon has completed initialization"
+жні 07 10:16:22 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 07 10:16:22 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-07T10:16:22.143432149+03:00" level=info msg="API listen on /run/docker.sock"
+жні 08 00:35:28 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 08 00:35:28 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-08T00:35:28.908568847+03:00" level=info msg="Processing signal 'terminated'"
+жні 08 00:35:28 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-08T00:35:28.909903167+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 08 00:35:28 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-08T00:35:28.910479737+03:00" level=info msg="Daemon shutdown complete"
+жні 08 00:35:28 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 08 00:35:28 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 08 09:41:22 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.695936370+03:00" level=info msg="Starting up"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.697695987+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.733119385+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.733154623+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.733185974+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.733210544+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.737504825+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.737536616+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.737558313+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.737574005+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.752539485+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.758762309+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.758791940+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.758824913+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.759363711+03:00" level=info msg="Loading containers: start."
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.932823776+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 08 09:41:22 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:22.977145777+03:00" level=info msg="Loading containers: done."
+жні 08 09:41:23 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:23.032618927+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 08 09:41:23 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:23.033305604+03:00" level=info msg="Daemon has completed initialization"
+жні 08 09:41:23 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 08 09:41:23 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T09:41:23.067219364+03:00" level=info msg="API listen on /run/docker.sock"
+жні 08 22:57:21 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T22:57:21.720537633+03:00" level=info msg="Processing signal 'terminated'"
+жні 08 22:57:21 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 08 22:57:21 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-08T22:57:21.724021015+03:00" level=info msg="Daemon shutdown complete"
+жні 08 22:57:21 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 08 22:57:21 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 09 17:25:40 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.922304683+03:00" level=info msg="Starting up"
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.924400832+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.974800725+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.974846031+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.974895291+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.974922248+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.984580165+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.984619622+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.984657288+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 17:25:40 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:40.984694302+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.027519842+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.051889754+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.051919056+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.051928507+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.053415133+03:00" level=info msg="Loading containers: start."
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.296413382+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.350916860+03:00" level=info msg="Loading containers: done."
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.502091712+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.506886165+03:00" level=info msg="Daemon has completed initialization"
+жні 09 17:25:41 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 09 17:25:41 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T17:25:41.551527171+03:00" level=info msg="API listen on /run/docker.sock"
+жні 09 18:24:15 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 09 18:24:15 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T18:24:15.101836673+03:00" level=info msg="Processing signal 'terminated'"
+жні 09 18:24:15 egor-HP-ProBook-440-G6 dockerd[1399]: time="2021-08-09T18:24:15.103923636+03:00" level=info msg="Daemon shutdown complete"
+жні 09 18:24:15 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 09 18:24:15 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 09 18:40:15 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.264109217+03:00" level=info msg="Starting up"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.266401065+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.305275831+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.305307946+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.305335376+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.305390105+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.309466289+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.309509427+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.309581949+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.309630218+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.330989222+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.337368969+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.337399268+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.337409707+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.337854430+03:00" level=info msg="Loading containers: start."
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.519635282+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.563964873+03:00" level=info msg="Loading containers: done."
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.620055345+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.620688838+03:00" level=info msg="Daemon has completed initialization"
+жні 09 18:40:15 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 09 18:40:15 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:40:15.650108994+03:00" level=info msg="API listen on /run/docker.sock"
+жні 09 18:46:53 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:46:53.497239538+03:00" level=info msg="Processing signal 'terminated'"
+жні 09 18:46:53 egor-HP-ProBook-440-G6 dockerd[1536]: time="2021-08-09T18:46:53.499823379+03:00" level=info msg="Daemon shutdown complete"
+жні 09 18:46:53 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 09 18:46:53 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 09 18:46:53 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 09 23:01:07 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.722884410+03:00" level=info msg="Starting up"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.725113671+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.759386975+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.759414090+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.759460620+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.759486600+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.764314858+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.764345680+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.764394116+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.764413357+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.790710836+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.796455313+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.796481405+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.796492964+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.796992090+03:00" level=info msg="Loading containers: start."
+жні 09 23:01:07 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:07.976900443+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 09 23:01:08 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:08.023798596+03:00" level=info msg="Loading containers: done."
+жні 09 23:01:08 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:08.077178824+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 09 23:01:08 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:08.078225195+03:00" level=info msg="Daemon has completed initialization"
+жні 09 23:01:08 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 09 23:01:08 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:01:08.104428847+03:00" level=info msg="API listen on /run/docker.sock"
+жні 09 23:09:51 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:09:51.110902251+03:00" level=info msg="Processing signal 'terminated'"
+жні 09 23:09:51 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 09 23:09:51 egor-HP-ProBook-440-G6 dockerd[1507]: time="2021-08-09T23:09:51.113434267+03:00" level=info msg="Daemon shutdown complete"
+жні 09 23:09:51 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 09 23:09:51 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 10 15:50:46 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.137944969+03:00" level=info msg="Starting up"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.139733621+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.163189227+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.163214087+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.163237401+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.163251118+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.167006256+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.167022355+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.167036555+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.167050697+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.187476695+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.192412157+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.192430926+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.192435510+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.192756627+03:00" level=info msg="Loading containers: start."
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.295642975+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.318456411+03:00" level=info msg="Loading containers: done."
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.365550154+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.366093908+03:00" level=info msg="Daemon has completed initialization"
+жні 10 15:50:47 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 10 15:50:47 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T15:50:47.388473471+03:00" level=info msg="API listen on /run/docker.sock"
+жні 10 22:40:21 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T22:40:21.018153297+03:00" level=info msg="Processing signal 'terminated'"
+жні 10 22:40:21 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T22:40:21.020298510+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 10 22:40:21 egor-HP-ProBook-440-G6 dockerd[1553]: time="2021-08-10T22:40:21.021310022+03:00" level=info msg="Daemon shutdown complete"
+жні 10 22:40:21 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 10 22:40:21 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 10 22:40:21 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+[0;1;39m-- Reboot --[0m
+жні 11 19:36:07 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.673228804+03:00" level=info msg="Starting up"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.675639992+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.715298031+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.715332029+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.715361599+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.715399194+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.719737217+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.719764565+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.719785705+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.719798776+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.745572648+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.752117557+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.752148001+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.752183036+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.753191690+03:00" level=info msg="Loading containers: start."
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.930119557+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 11 19:36:07 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:07.972293631+03:00" level=info msg="Loading containers: done."
+жні 11 19:36:08 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:08.032620838+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 11 19:36:08 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:08.033237818+03:00" level=info msg="Daemon has completed initialization"
+жні 11 19:36:08 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 11 19:36:08 egor-HP-ProBook-440-G6 dockerd[1539]: time="2021-08-11T19:36:08.065219628+03:00" level=info msg="API listen on /run/docker.sock"
+[0;1;39m-- Reboot --[0m
+жні 12 15:23:00 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.819563730+03:00" level=info msg="Starting up"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.821586981+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.856549073+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.856580468+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.856629921+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.856662829+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.860688663+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.860709141+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.860745505+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.860756012+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.876368784+03:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.882982814+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.883008533+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.883015943+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 12 15:23:00 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:00.883462347+03:00" level=info msg="Loading containers: start."
+жні 12 15:23:01 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:01.061033861+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 12 15:23:01 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:01.104069978+03:00" level=info msg="Loading containers: done."
+жні 12 15:23:01 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:01.156837458+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 12 15:23:01 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:01.157440931+03:00" level=info msg="Daemon has completed initialization"
+жні 12 15:23:01 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 12 15:23:01 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T15:23:01.189034888+03:00" level=info msg="API listen on /run/docker.sock"
+жні 12 17:34:30 egor-HP-ProBook-440-G6 systemd[1]: Stopping Docker Application Container Engine...
+жні 12 17:34:30 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T17:34:30.362135600+03:00" level=info msg="Processing signal 'terminated'"
+жні 12 17:34:30 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T17:34:30.363272404+03:00" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+жні 12 17:34:30 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T17:34:30.363533577+03:00" level=info msg="Daemon shutdown complete"
+жні 12 17:34:30 egor-HP-ProBook-440-G6 dockerd[1529]: time="2021-08-12T17:34:30.363549050+03:00" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+жні 12 17:34:30 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Succeeded.
+жні 12 17:34:30 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 12 17:42:47 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 17:42:47 egor-HP-ProBook-440-G6 dockerd[14797]: time="2021-08-12T17:42:47.879341572+03:00" level=info msg="Starting up"
+жні 12 17:42:47 egor-HP-ProBook-440-G6 dockerd[14797]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+жні 12 17:42:47 egor-HP-ProBook-440-G6 systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+жні 12 17:42:47 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+жні 12 17:42:47 egor-HP-ProBook-440-G6 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+жні 12 17:42:49 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Scheduled restart job, restart counter is at 1.
+жні 12 17:42:49 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 12 17:42:49 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 17:42:50 egor-HP-ProBook-440-G6 dockerd[15273]: time="2021-08-12T17:42:50.031211868+03:00" level=info msg="Starting up"
+жні 12 17:42:50 egor-HP-ProBook-440-G6 dockerd[15273]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+жні 12 17:42:50 egor-HP-ProBook-440-G6 systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+жні 12 17:42:50 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+жні 12 17:42:50 egor-HP-ProBook-440-G6 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Scheduled restart job, restart counter is at 2.
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 17:42:52 egor-HP-ProBook-440-G6 dockerd[15305]: time="2021-08-12T17:42:52.273620043+03:00" level=info msg="Starting up"
+жні 12 17:42:52 egor-HP-ProBook-440-G6 dockerd[15305]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+жні 12 17:42:52 egor-HP-ProBook-440-G6 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Scheduled restart job, restart counter is at 3.
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 17:42:54 egor-HP-ProBook-440-G6 dockerd[15318]: time="2021-08-12T17:42:54.525141455+03:00" level=info msg="Starting up"
+жні 12 17:42:54 egor-HP-ProBook-440-G6 dockerd[15318]: failed to load listeners: no sockets found via socket activation: make sure the service was started by systemd
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: [0;1;39m[0;1;31m[0;1;39mdocker.service: Main process exited, code=exited, status=1/FAILURE[0m
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+жні 12 17:42:54 egor-HP-ProBook-440-G6 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+жні 12 17:42:56 egor-HP-ProBook-440-G6 systemd[1]: docker.service: Scheduled restart job, restart counter is at 4.
+жні 12 17:42:56 egor-HP-ProBook-440-G6 systemd[1]: Stopped Docker Application Container Engine.
+жні 12 17:42:56 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Start request repeated too quickly.[0m
+жні 12 17:42:56 egor-HP-ProBook-440-G6 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mdocker.service: Failed with result 'exit-code'.[0m
+жні 12 17:42:56 egor-HP-ProBook-440-G6 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Docker Application Container Engine.[0m
+жні 12 17:46:27 egor-HP-ProBook-440-G6 systemd[1]: Starting Docker Application Container Engine...
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.658467858+03:00" level=info msg="Starting up"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.659017585+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.659558935+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.659580199+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.659610639+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.659623982+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.660630527+03:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.660656146+03:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.660677062+03:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.660685424+03:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.682212776+03:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.682239536+03:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.682247212+03:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.682405169+03:00" level=info msg="Loading containers: start."
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.719992972+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.744988995+03:00" level=info msg="Loading containers: done."
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.754556023+03:00" level=info msg="Docker daemon" commit=75249d8 graphdriver(s)=overlay2 version=20.10.8
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.754667608+03:00" level=info msg="Daemon has completed initialization"
+жні 12 17:46:27 egor-HP-ProBook-440-G6 systemd[1]: Started Docker Application Container Engine.
+жні 12 17:46:27 egor-HP-ProBook-440-G6 dockerd[15649]: time="2021-08-12T17:46:27.784344410+03:00" level=info msg="API listen on /run/docker.sock"
