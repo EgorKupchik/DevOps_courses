@@ -17,7 +17,7 @@ mysql:
     volumes:
         - ./db-data:/var/lib/mysql
     environment:
-        - MYSQL_ROOT_PASSWORD=aqwe123
+        - MYSQL_ROOT_PASSWORD=
     restart: always 
 
 wordpress:
