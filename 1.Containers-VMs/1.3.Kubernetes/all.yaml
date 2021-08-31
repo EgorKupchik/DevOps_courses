@@ -13,7 +13,7 @@ metadata:
   name: hello-docker
   namespace: test
   labels :
-    owner: ladzislaw
+    owner: egor
 spec:
   replicas: 3
   selector:
